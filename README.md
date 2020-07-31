@@ -6,16 +6,16 @@ Analisi delle architetture seguenti:
   
   Two-Stage VAE: https://arxiv.org/abs/1903.05789
   
-  Deterministic VAE: https://arxiv.org/abs/1903.12436
-  
-  WAE: https://arxiv.org/abs/1711.01558
-  
-  VQVAE: https://arxiv.org/abs/1711.00937
+  Deterministic VAE (RAE): https://arxiv.org/abs/1903.12436
   
   DRAW: https://arxiv.org/abs/1502.04623
   
   InfoVAE: https://arxiv.org/abs/1706.02262
   
+  [opzionali: 
+  WAE: https://arxiv.org/abs/1711.01558
+  
+  VQVAE: https://arxiv.org/abs/1711.00937]
   
 La mia idea è quella di seguire le linee dell'indagine fatta su Deterministic VAE, nell'appendice ha un'analisi bella e fatta molto bene che confronta alcune tipologie di RAE (VAE Regolarizzati introdotti nel paper Deterministic VAE) con diversi regolarizzatori, VAE classici, WAE e altre architetture. 
 Nel suo caso l'indagine viene fatta soltanto su VAE non ricorrenti, e su pochissime architetture diverse. Io estenderei quell'analisi in maniera più completa, misurando la qualità delle reti su due fronti:
